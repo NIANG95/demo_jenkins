@@ -13,12 +13,12 @@
         <maven.compiler.target>17</maven.compiler.target>
     </properties>
     
-    <dependencies>
+<!--     <dependencies>
         <dependency>
          <groupId>org.ow2.asm</groupId>
          <artifactId>asm-commons</artifactId>
          <version>5.0.3</version>
         </dependency>
     </dependencies>
-
+ -->
 </project>
