@@ -24,7 +24,7 @@ bat'mvn install'
 }
 stage('Run') {
 steps {
-bat 'java App.java'
+bat 'java App'
 }
 }
 }
