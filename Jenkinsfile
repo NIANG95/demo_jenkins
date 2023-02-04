@@ -22,10 +22,10 @@ bat'mvn install'
 }
 }
 }
+}
 post {
 always {
 emailext body: '$DEFAULT_CONTENT', recipientProviders: [[$class: 'DevelopersRecipientProvider'], [$class: 'RequesterRecipientProvider']], subject: 'Test'
-}
 }
 }
 }
